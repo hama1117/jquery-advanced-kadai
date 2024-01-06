@@ -73,6 +73,9 @@ $(function () {
   $('#message').blur(function () {
     inputCheck();
   });
+  $('#prefecture').blur(function () {
+    inputCheck();
+  });
   $('#agree').click(function () {
     inputCheck();
   });
